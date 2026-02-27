@@ -1,1 +1,1 @@
-print("code")
+print("pagaidām neko nesaprotu, bet izskatās cerīgi")
