@@ -1,0 +1,14 @@
+[
+    {
+        "date": "2026-04-23",
+        "amount": 50.0,
+        "category": "u.c",
+        "description": "citi"
+    },
+    {
+        "date": "2026-04-23",
+        "amount": 20.0,
+        "category": "Ēdiens",
+        "description": "pica"
+    }
+]

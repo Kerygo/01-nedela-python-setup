@@ -1,11 +1,11 @@
 from datetime import datetime
 
 def sum_total(expenses):
-    """Aprēķina kopējo summu visiem izdevumiem sarakstā."""
+    if not expenses:
+        return 0
     return sum(exp["amount"] for exp in expenses)
 
 def sum_by_category(expenses):
-    """Atgriež vārdnīcu ar kopsummām pa kategorijām."""
     totals = {}
     for exp in expenses:
         cat = exp["category"]
@@ -13,7 +13,6 @@ def sum_by_category(expenses):
     return totals
 
 def filter_by_month(expenses, year, month):
-    """Atgriež tikai norādītā mēneša izdevumus."""
     filtered = []
     for exp in expenses:
         d = datetime.strptime(exp["date"], "%Y-%m-%d")
