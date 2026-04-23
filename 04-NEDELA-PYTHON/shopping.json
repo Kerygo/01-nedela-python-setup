@@ -3,5 +3,10 @@
         "name": "Maize",
         "qty": 2,
         "price": 1.5
+    },
+    {
+        "name": "Maize",
+        "qty": 2,
+        "price": 1.2
     }
 ]
