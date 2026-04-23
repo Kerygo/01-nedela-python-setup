@@ -1,1 +1,1 @@
-print("pagaidām neko nesaprotu, bet izskatās cerīgi")
+print("pagaidām neko nesaprotu, bet izskatās cerīgi,")
