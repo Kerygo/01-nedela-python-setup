@@ -2,7 +2,7 @@ import json
 import os
 
 # Failu nosaukumi
-FILE_NAME = "shopping.json"
+FILE_NAME = "shopping_list.json"
 PRICES_FILE = "prices.json"
 
 # --- IEPIRKUMU SARAKSTA FUNKCIJAS ---
